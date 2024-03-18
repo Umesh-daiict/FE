@@ -11,11 +11,14 @@ export default function App() {
               Meet
             </p>
             <p className="flex max-w-[7rem] w-full min-h-[180px] h-full">
-              <p className="mt-[4rem] -ml-[4.5rem] text-[5rem] -rotate-90  font-bold">
+              <p className="mt-[4rem] -ml-[4.5rem] text-[5rem] -rotate-90  font-bold cursor-pointer">
                 {"Turbo!".split("").map((txt) => (
                   <span
                     key={txt}
-                    className=""
+                    className="relative transition-transform hover:-top-4 "
+                    style={{
+                      transition: "top 1s ease-in-out",
+                    }}
                   >
                     {txt}
                   </span>
