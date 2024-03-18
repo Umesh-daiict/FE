@@ -1,9 +1,11 @@
 import "./App.css";
-import LandingPage from "./LandingPage";
+import InfiniteScroller from "./InfiniteS";
+// import LandingPage from "./LandingPage";
 export default function App() {
   return (
     <div>
-      <LandingPage />
+      {/* <LandingPage /> */}
+      <InfiniteScroller />
     </div>
   );
 }
